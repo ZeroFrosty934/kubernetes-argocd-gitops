@@ -17,7 +17,7 @@ spec:
       - name: ghcr-secret
       containers:
       - name: grade-submission-api
-        image: ghcr.io/ZeroFrosty934/kubernetes-cicd-app:latest ## Update with your image path!!!!!
+        image: ghcr.io/zerofrosty934/kubernetes-cicd-app:latest ## Update with your image path!!!!!
         ports:
         - containerPort: 3000
         resources:
